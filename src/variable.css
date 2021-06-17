@@ -1,0 +1,10 @@
+:root {
+  --c-primary: #fff;
+  --c-theme: #dfe9ff;
+  --c-theme-footer: #00106a;
+  --c-button-color: #4b71ff;
+
+  --fade: 300ms;
+
+  --container: 1520px;
+}

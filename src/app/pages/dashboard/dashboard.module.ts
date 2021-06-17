@@ -20,4 +20,4 @@ import { LoginComponent } from '../auth/auth/login/login.component';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AuthModule {}
+export class DashboardModule {}
