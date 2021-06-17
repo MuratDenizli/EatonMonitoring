@@ -9,12 +9,14 @@ import { NgaModule } from './@core/nga.module';
 import { LoaderService } from './@core/services/services/loader.service';
 import { LoaderInterceptor } from './@core/services/interceptor/loader.interceptor';
 import { AuthModule } from './pages/auth/auth.module';
+import { LandingModule } from './pages/landing/landing.module';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     AuthModule,
+    LandingModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,

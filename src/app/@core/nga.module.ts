@@ -10,8 +10,9 @@ import { HttpConfigInterceptor } from './services/interceptor/httpconfig.interce
 import { AnalyticService } from './services/services/analytic.service';
 import { LoaderService } from './services/services/loader.service';
 import { AuthGuard } from '../pages/auth/auth.guard';
+import { BoxComponent } from './components/box/box.component';
 
-const NGA_COMPONENTS = [FooterComponent, HeaderComponent];
+const NGA_COMPONENTS = [FooterComponent, HeaderComponent, BoxComponent];
 
 const NGA_SERVICES = [AuthService, AnalyticService, LoaderService];
 

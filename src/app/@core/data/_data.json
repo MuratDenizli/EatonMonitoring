@@ -1,0 +1,44 @@
+[
+  {
+    "id": "r1",
+    "data": [1, 2, 3, 4, 5],
+    "name": "BC-A Compact Distribution Box",
+    "description": "Surface-mounted Compact Distribution Boxes",
+    "img": "http://www.eaton.com.tr/ecm/groups/public/@pub/@europe/documents/content/pct_310712.jpg"
+  },
+  {
+    "id": "r2",
+    "data": [1, 2, 3, 4, 5],
+    "name": "BC-NK Compact Distribution Box",
+    "description": "Surface-Mounted and Flush-Mounted Compact Distribution Boxes",
+    "img": "http://www.eaton.com.tr/ecm/groups/public/@pub/@europe/documents/content/pct_310719.jpg"
+  },
+  {
+    "id": "r3",
+    "data": [1, 2, 3, 4, 5],
+    "name": "a1",
+    "description": "b1",
+    "img": "https://www.eaton.com/content/dam/eaton/products/lighting-and-controls/images/topprod-thumb-corelite.jpg"
+  },
+  {
+    "id": "r4",
+    "data": [1, 2, 3, 4, 5],
+    "name": "a2",
+    "description": "b2",
+    "img": "http://www.eaton.com.tr/ecm/groups/public/@pub/@europe/documents/content/pct_310703.jpg"
+  },
+  {
+    "id": "r5",
+    "data": [1, 2, 3, 4, 5],
+    "name": "a3",
+    "description": "b3",
+    "img": "http://www.eaton.com.tr/ecm/groups/public/@pub/@europe/@electrical/documents/content/pct_1136422.jpg"
+  },
+  {
+    "id": "r6",
+    "data": [1, 2, 3, 4, 5],
+    "name": "a4",
+    "description": "b4",
+    "img": "https://www.eaton.com/content/dam/eaton/products/lighting-and-controls/images/topprod-thumb-portfolio.jpg"
+  }
+]
