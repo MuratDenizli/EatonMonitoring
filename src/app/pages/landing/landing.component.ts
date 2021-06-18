@@ -15,7 +15,5 @@ export class LandingComponent implements OnInit {
     name: string;
   }[] = dummydata;
 
-  ngOnInit() {
-    console.log('nameData', this.dataList);
-  }
+  ngOnInit() {}
 }

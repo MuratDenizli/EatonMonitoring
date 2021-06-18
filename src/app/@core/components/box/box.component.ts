@@ -9,7 +9,5 @@ export class BoxComponent implements OnInit {
   constructor() {}
   @Input() data: any = {};
 
-  ngOnInit(): void {
-    console.log('data', this.data);
-  }
+  ngOnInit(): void {}
 }

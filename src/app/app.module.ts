@@ -10,6 +10,7 @@ import { LoaderService } from './@core/services/services/loader.service';
 import { LoaderInterceptor } from './@core/services/interceptor/loader.interceptor';
 import { AuthModule } from './pages/auth/auth.module';
 import { LandingModule } from './pages/landing/landing.module';
+import { DashboardModule } from './pages/dashboard/dashboard.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +18,7 @@ import { LandingModule } from './pages/landing/landing.module';
     BrowserModule,
     AuthModule,
     LandingModule,
+    DashboardModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,

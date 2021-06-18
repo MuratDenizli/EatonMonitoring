@@ -11,8 +11,14 @@ import { AnalyticService } from './services/services/analytic.service';
 import { LoaderService } from './services/services/loader.service';
 import { AuthGuard } from '../pages/auth/auth.guard';
 import { BoxComponent } from './components/box/box.component';
+import { ChartComponent } from './components/chart/chart.component';
 
-const NGA_COMPONENTS = [FooterComponent, HeaderComponent, BoxComponent];
+const NGA_COMPONENTS = [
+  FooterComponent,
+  HeaderComponent,
+  BoxComponent,
+  ChartComponent,
+];
 
 const NGA_SERVICES = [AuthService, AnalyticService, LoaderService];
 

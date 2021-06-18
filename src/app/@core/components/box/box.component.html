@@ -1,10 +1,11 @@
 <div>
   <div class="card">
-    <img class="card-icon" src="{{ data.img }}" alt="monitoring" />
-    <h3 class="card-title">{{ data.name }}</h3>
-    <p class="card-text">
-      {{ data.desc }}
-    </p>
-    <a class="card-link" href="#">Learn more</a>
+    <a [routerLink]="['/dashboard']" [queryParams]="{ id: data.id }">
+      <img class="card-icon" src="{{ data.img }}" alt="monitoring" />
+      <h3 class="card-title">{{ data.name }}</h3>
+      <p class="card-text">
+        {{ data.desc }}
+      </p>
+    </a>
   </div>
 </div>
